@@ -1,0 +1,5 @@
+INSERT INTO `super_user` (`SUPERID`, `EMAIL`, `MOBILE_NO`, `SUPER_NAME`, `WORK_ID`, `JAIL_ID`, `PASSWORD`) VALUES (NULL, 'milind@gmail.com', '741258963', 'milind', '1', '1', 'msp');
+INSERT INTO `super_user` (`SUPERID`, `EMAIL`, `MOBILE_NO`, `SUPER_NAME`, `WORK_ID`, `JAIL_ID`, `PASSWORD`) VALUES (NULL, 'nancy@gmail.com', '147852369', 'nancy', '3', '3', 'nsp');
+
+
+INSERT INTO `cell` (`CELL_ID`, `JAIL_ID`) VALUES (NULL, '1'), (NULL, '2'), (NULL, '3'), (NULL, '8'), (NULL, '5') 

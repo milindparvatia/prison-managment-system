@@ -1,0 +1,31 @@
+#contentLeft{
+	list-style-type: none;
+	float: left;
+	display: block;
+	width: 250px;
+	
+	text-align: left;
+	line-height: 30px;
+	font-size: 17px;
+}
+
+#contentLeft table td a{
+	text-decoration: none;
+	color: #FFFFFF;
+	
+}
+
+#contentLeft table td:hover{
+	background-color: rgba(242,242,242,1.00);
+	text-align: left;
+	color: rgba(255,251,251,1);
+	font-size: 17px;
+}
+
+#contentLeft table td:hover a{
+	display: block;
+	color: #000000;
+	font-size: 17px;
+	text-align: center;
+	
+}

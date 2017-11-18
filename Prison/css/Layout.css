@@ -1,0 +1,165 @@
+body {
+	margin:0;
+	padding:0;
+	
+	}
+
+body, html {
+    height: 100%;
+}
+
+/*.bg { 
+     The image used 
+    	
+	background-image: url("../fel-the-jail-marathipizza.jpg");
+
+     Full height 
+    height: 100%; 
+
+    Center and scale the image nicely 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	opacity: 0.5;
+	filter:blur(5px);
+	
+}
+*/
+
+.bg{     	
+	background-image: url("../fel-the-jail-marathipizza.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+#Holder{
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Header{
+	height:auto;
+		
+}
+
+#HeaderRight{
+	width: 50%;
+	float: right;
+	
+}
+
+#HeaderLeft{
+	width: 50%;
+	float: left;
+	
+
+}
+
+#Navbar{
+	height: 60px;
+	background-color: rgb(13,13,13);
+}
+
+#Content{
+	height: auto;
+	clear: both;
+	overflow: auto;
+	text-align: center;
+	
+}
+#contentLeft{
+	height: auto;
+	width: 250px;
+	float: left;
+	background-color: rgb(13,13,13);
+}
+
+
+
+#contentRight{
+	width: 75%;
+	float:left;
+}
+
+#PageHeading{
+	height: auto;
+	padding: 11px;
+	width: 755px;
+	float: right;
+	text-align: left;
+	}
+
+#Footer{
+	height: 100px;
+
+	text-align: right;
+	font-size: 16px;
+}
+#Footer1{
+	color: rgba(242,242,242,1.00);
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+
+h1{
+	margin: 0px;
+	color: #000000;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	font-weight: lighter;
+	text-align: left;
+}
+
+h2{
+	margin: 0;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	font-weight: bolder;
+	color: #666;
+}
+
+h6{
+
+	margin:0;
+	font-size: 14px;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	font-weight: lighter;
+	color: #333;
+	
+}
+
+.StyleTextField {
+	border: 1px solid #666;
+	border-radius: 6px;
+	width: 200px;
+	height: 35px;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	padding-left: 0;
+	
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: center;
+	font-size: 18px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
